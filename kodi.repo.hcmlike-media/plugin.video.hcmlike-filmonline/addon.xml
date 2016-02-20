@@ -29,6 +29,6 @@ Trân trọng./.</description>
 		<forum>http://www.hdvietnam.com/diendan/229-android-box/1027509-hcmlike-media-repository-add-ons-chuyen.html</forum>
 		<website>http://hcmlike.com</website>
 		<email>hcmlike@gmail.com</email>
-		<source>http://hcmlike.entrydns.org/hcmlike/kodi.repo.hcmlike-media</source>
+		<source>https://raw.githubusercontent.com/hcmlike/kodi/master/kodi.repo.hcmlike-media</source>
   </extension>
 </addon>
