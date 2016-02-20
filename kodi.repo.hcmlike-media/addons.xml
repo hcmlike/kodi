@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="kodi.repo.hcmlike-media" name="HCMLIKE-Media Repository" version="1.0.2" provider-name="HCMLIKE.com">
+  <extension point="xbmc.addon.repository" name="Official XBMC.org Add-on Repository">
+    <info compressed="true">http://hcmlike.entrydns.org/hcmlike/kodi.repo.hcmlike-media/addons.xml</info>
+    <checksum>http://hcmlike.entrydns.org/hcmlike/kodi.repo.hcmlike-media/addons.xml.md5</checksum>
+    <datadir zip="true">http://hcmlike.entrydns.org/hcmlike/kodi.repo.hcmlike-media</datadir>
+    <hashes>true</hashes>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play Film, Show, Clip and TV Online from sources from Internet</summary>
+    <description>Download and install addons from HCMLIKE-Media Repository: Watch films from phim.megabox.vn/, TV online from hplus.com.vn, and other sources from Internet</description>
+    <language>en</language>
+    <platform>all</platform>
+    <license>http://www.gnu.org/licenses/</license>
+    <source>http://hcmlike.entrydns.org/hcmlike/kodi.repo.hcmlike-media</source>
+    <email>hcmlike@gmail.com</email>
+  </extension>
+</addon>
+<addon id="plugin.video.hcmlike-filmonline"
+       name="HCMLIKE - Film Online"
+       version="2.1.5"
+       provider-name="HCMLIKE.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>HCMLIKE-Media HD Film</summary>
+    <description>Add-ons được viết bởi HCMLIKE.COM, chúng tôi không sao chép từ bất kỳ tác giả nào khác. Bản quyền tác giả Add-ons thuộc về HCMLIKE.COM.
+
+Add-ons được chia sẻ hoàn toàn miễn phí và được duy trì bởi HCMLIKE.COM. Chúng tôi rất vui lòng khi được cộng đồng người dùng Kodi sử dụng và chia sẻ cho mục đích phi thương mại. Rất mong người dùng vui lòng KHÔNG THAY ĐỔI THÔNG TIN ADD-ONS khi sử dụng.
+
+Đây là sản phẩm tinh thần mà đội ngũ Lập trình viên của HCMLIKE.COM ngày đêm viết code với mong muốn mang đến cho người dùng những trải nghiệm hoàn hảo nhất. Các sản phẩm của chúng tôi: HCMLIKE TV Online, HCMLIKE Film Online, HCMLIKE NAS Online, HCMLIKE Camera Online,...
+
+Mọi ý kiến đóng góp về Add-ons, vui lòng phản hồi: https://www.facebook.com/hcmlike hoặc http://hcmlike.com/ hoặc hcmlike@gmail.com
+
+Trân trọng./.</description>
+  <disclaimer lang="en">
+[COLOR lime]Copyright © HCMLIKE.com[/COLOR]
+[COLOR red]Nguồn phát bởi MegaBox và một số nguồn khác trên Internet. Chúng tôi không kiểm soát bất kỳ nguồn phim nào, cũng như không chịu trách nhiệm bản quyền nội dung trên các phim. Người xem đồng ý và cân nhắc nội dung mà mình muốn xem.[/COLOR]</disclaimer>
+    <platform>all</platform>
+    <license>http://www.gnu.org/licenses/</license>
+    <forum>http://www.hdvietnam.com/diendan/229-android-box/1027509-hcmlike-media-repository-add-ons-chuyen.html</forum>
+    <website>http://hcmlike.com</website>
+    <email>hcmlike@gmail.com</email>
+    <source>http://hcmlike.entrydns.org/hcmlike/kodi.repo.hcmlike-media</source>
+  </extension>
+</addon>
+<addon id="plugin.video.hcmlike-tvonline" name="HCMLIKE - TV Online" version="1.2.7" provider-name="HCMLIKE.com">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HCMLIKE - TV Online</summary>
+        <language></language>
+        <description lang="en">Add-ons được viết bởi HCMLIKE.COM, chúng tôi không sao chép từ bất kỳ tác giả nào khác. Bản quyền tác giả Add-ons thuộc về HCMLIKE.COM.
+
+Add-ons được chia sẻ hoàn toàn miễn phí và được duy trì bởi HCMLIKE.COM. Chúng tôi rất vui lòng khi được cộng đồng người dùng Kodi sử dụng và chia sẻ cho mục đích phi thương mại. Rất mong người dùng vui lòng KHÔNG THAY ĐỔI THÔNG TIN ADD-ONS khi sử dụng.
+
+Đây là sản phẩm tinh thần mà đội ngũ Lập trình viên của HCMLIKE.COM ngày đêm viết code với mong muốn mang đến cho người dùng những trải nghiệm hoàn hảo nhất. Các sản phẩm của chúng tôi: HCMLIKE TV Online, HCMLIKE Film Online, HCMLIKE NAS Online, HCMLIKE Camera Online,...
+
+Mọi ý kiến đóng góp về Add-ons, vui lòng phản hồi: https://www.facebook.com/hcmlike hoặc http://hcmlike.com/ hoặc hcmlike@gmail.com
+
+Trân trọng./.</description>
+        <disclaimer lang="en">[COLOR lime]Copyright © HCMLIKE.com[/COLOR]
+[COLOR red]Nguồn phát bởi HTVOnline và một số nguồn khác trên Internet. Chúng tôi không kiểm soát bất kỳ kênh truyền hình nào, cũng như không chịu trách nhiệm bản quyền nội dung trên các kênh truyền hình. Người xem đồng ý và cân nhắc nội dung mà mình muốn xem.[/COLOR]</disclaimer>
+        <website>http://hcmlike.com</website>
+        <source>http://hcmlike.entrydns.org/hcmlike/kodi.repo.hcmlike-media</source>
+        <forum>http://www.hdvietnam.com/diendan/229-android-box/1027509-hcmlike-media-repository-add-ons-chuyen.html</forum>
+        <email>hcmlike@gmail.com</email>
+    </extension>
+</addon>
+</addons>
